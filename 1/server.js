@@ -16,5 +16,3 @@ await server.listen(keyPair)
 // Server is now listening.
 console.log('Connect to:')
 console.log(keyPair.publicKey.toString('hex'))
-
-TEST
